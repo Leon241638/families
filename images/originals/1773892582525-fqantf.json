@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/history/history",
+    "pages/settings/settings"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#667eea",
+    "navigationBarTitleText": "豆包语音对话",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#667eea",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "对话",
+        "iconPath": "assets/icon-home.png",
+        "selectedIconPath": "assets/icon-home-active.png"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史",
+        "iconPath": "assets/icon-history.png",
+        "selectedIconPath": "assets/icon-history-active.png"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "text": "设置",
+        "iconPath": "assets/icon-setting.png",
+        "selectedIconPath": "assets/icon-setting-active.png"
+      }
+    ]
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "获取位置信息用于服务"
+    },
+    "scope.record": {
+      "desc": "录音功能需要麦克风权限"
+    },
+    "scope.camera": {
+      "desc": "图片生成功能需要相机权限"
+    }
+  }
+}
